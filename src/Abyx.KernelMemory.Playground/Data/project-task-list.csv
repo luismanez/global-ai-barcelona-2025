@@ -1,0 +1,9 @@
+TaskID,ProjectName,AssignedTo,Status,Deadline,Priority
+1,HoloSight AI Glasses,Jane Smith,In Progress,2025-04-10,High
+2,HoloSight AI Glasses,David Chen,Not Started,2025-04-12,Medium
+3,Aurora Voice Assistant,Alice Johnson,In Progress,2025-04-15,High
+4,Aurora Voice Assistant,Robert King,Complete,2025-03-30,Low
+5,NeuraBand 2.0,Megan Liu,In Progress,2025-04-25,High
+6,NeuraBand 2.0,Thomas Green,Not Started,2025-05-01,Medium
+7,AeroDrone AI,Lisa Morales,In Progress,2025-05-15,Medium
+8,AeroDrone AI,Carlos Vega,On Hold,2025-05-20,Low

@@ -1,0 +1,58 @@
+[
+  {
+    "Name": "Alice Johnson",
+    "Phone": "+1-555-0101",
+    "Department": "Engineering",
+    "HireDate": "2023-02-01",
+    "Manager": "Henry Wallace"
+  },
+  {
+    "Name": "Bob Miller",
+    "Phone": "+1-555-0202",
+    "Department": "Engineering",
+    "HireDate": "2021-10-15",
+    "Manager": "Henry Wallace"
+  },
+  {
+    "Name": "Chris Evans",
+    "Phone": "+1-555-0303",
+    "Department": "Marketing",
+    "HireDate": "2024-01-10",
+    "Manager": "Linda Cox"
+  },
+  {
+    "Name": "Diana Rogers",
+    "Phone": "+1-555-0404",
+    "Department": "Finance",
+    "HireDate": "2022-07-25",
+    "Manager": "Mark Spencer"
+  },
+  {
+    "Name": "Evelyn Carter",
+    "Phone": "+1-555-0505",
+    "Department": "Human Resources",
+    "HireDate": "2023-03-20",
+    "Manager": "Linda Cox"
+  },
+  {
+    "Name": "Frank Murphy",
+    "Phone": "+1-555-0606",
+    "Department": "Research & Development",
+    "HireDate": "2021-12-05",
+    "Manager": "Mark Spencer"
+  },
+  {
+    "Name": "Gina Lee",
+    "Phone": "+1-555-0707",
+    "Department": "Customer Support",
+    "HireDate": "2022-09-17",
+    "Manager": "Henry Wallace"
+  },
+  {
+    "Name": "Hector Gomez",
+    "Phone": "+1-555-0808",
+    "Department": "Legal",
+    "HireDate": "2020-05-12",
+    "Manager": "Linda Cox"
+  }
+]
