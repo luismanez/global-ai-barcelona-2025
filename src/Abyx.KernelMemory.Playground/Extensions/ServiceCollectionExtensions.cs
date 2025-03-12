@@ -3,6 +3,8 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
 using Microsoft.KernelMemory;
+using Microsoft.KernelMemory.DocumentStorage.DevTools;
+using Microsoft.KernelMemory.FileSystem.DevTools;
 
 namespace Abyx.KernelMemory.Playground.Extensions;
 
@@ -29,7 +31,12 @@ public static class ServiceCollectionExtensions
                                 config: azureOpenAiEmbeddingConfig)
                             .WithAzureOpenAITextGeneration(
                                 config: azureOpenAiTextConfig)
-                            .WithAzureAISearchMemoryDb(azureAiSearchConfig);
+                            .WithAzureAISearchMemoryDb(azureAiSearchConfig)
+                            .WithSimpleFileStorage(new SimpleFileStorageConfig
+                            {
+                                Directory = "/Users/luisman/temp/km-chunk-storage",
+                                StorageType = FileSystemTypes.Disk
+                            });
 
             kmBuilder.Services.AddLogging(builder =>
             {
