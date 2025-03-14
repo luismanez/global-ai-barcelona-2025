@@ -3,6 +3,7 @@ using Abyx.KernelMemory.Playground.Demos._01_HelloKernelMemory;
 using Abyx.KernelMemory.Playground.Demos._02_ImportingWays;
 using Abyx.KernelMemory.Playground.Demos._03_Citations;
 using Abyx.KernelMemory.Playground.Demos._04_SearchFilters;
+using Abyx.KernelMemory.Playground.Demos._05_CustomImportHandler;
 using Abyx.KernelMemory.Playground.Extensions;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
@@ -36,6 +37,9 @@ var host = Host.CreateDefaultBuilder(args)
                 break;
             case "4":
                 services.AddHostedService<SearchFiltersHostedService>();
+                break;
+            case "5":
+                services.AddHostedService<CustomImportHandlerHostedService>();
                 break;
             default:
                 throw new ArgumentException($"Unknown demo: {demoToRun}");

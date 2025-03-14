@@ -80,5 +80,6 @@ public class SearchFiltersHostedService : IHostedService
     public Task StopAsync(CancellationToken cancellationToken)
     {
         _logger.LogWarning("SearchFiltersHostedService Stopped");
-        return Task.CompletedTask;    }
+        return Task.CompletedTask;
+    }
 }
